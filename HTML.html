@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Ung dung tinh dien tinh hinh chu nhat</h1>
+<button onclick = "are()">run</button>
+<p id = "demo"></p>
+<script>
+    function are(){
+        var width = parseInt(prompt("Nhap chieu rong"));
+        var height = parseInt(prompt("Nhap chieu dai"));
+        var area = width * height;
+        document.getElementById("demo").innerHTML= "Dien tich la: " + area;
+    }
+</script>
+</body>
+</html>
